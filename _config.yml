@@ -1,5 +1,3 @@
-title: Dinky theme
-description: Dinky is a red hot theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-dinky
+title: CS 4395 NLP Portfolio
+description: Portfolio for a natural language processing course
+remote_theme: pages-themes/dinky@v0.2.0
