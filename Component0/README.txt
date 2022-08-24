@@ -1,0 +1,1 @@
+This component contains the first assignment for this class.

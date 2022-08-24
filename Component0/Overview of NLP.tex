@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage[shortlabels]{enumitem}
+\usepackage[export]{adjustbox}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{etoolbox}
+\usepackage{mathrsfs}
+\usepackage{listings}
+\usepackage{graphicx}
+\let\n\newline
+\let\t\text
+
+
+\newcommand\ol[1]{\ensuremath{\overline{#1}}} % doesnt show up in preview :(
+\newcolumntype{L}{>$l<$}
+
+\title{Human Language Technologies Portfolio Component 0}
+\author{Jonathan Yu}	
+
+\preto\array{\setcounter{magicrownumbers}{0}}
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+
+\begin{document}
+\renewcommand{\arraystretch}{1.5}
+\maketitle
+\begin{enumerate}[label=\alph*)]
+	\item Natural Language Processing is the approach we take to allow computers to comprehend and compose human languages.
+
+	\item Natural language processing is a branch of AI. NLP implementations can borrow techniques from AI or machine learning to increase its functionality.
+
+	\item Natural language understanding is the comprehension part of NLP. It allows the computer to understand what you are saying, whereas natural language generation requires the computer to create sentences. These concepts both involve the computer understanding the syntax of the language, however the semantics are more important for comprehension.
+	
+	\item Modern NLP applications: Siri, Google Translate, Alexa, Chat bots, and many more.
+	% e
+	\item \begin{itemize}
+		\item \textbf{Rules-based approaches:} Rules-based approaches attempt to process language by defining a set of rules. This is a na\"{i}ve approach to language processing, as a language such as english gets complicated quickly and has many ambiguities. Some examples of rule-based approaches are spell checks and context free grammars.
+
+		\item \textbf{Statistical and probabilistic approaches:} Statistic and probabilistic approaches use probability to build language models. Statistical approaches can be useful for translation systems. This includes intellisense text predictions, and also includes machine learning approaches. One downside for these approaches is that they require a large amount of data to function correctly.
+
+		\item \textbf{Deep Learning:} Deep learning uses neural networks to learn from incredibly large data sets. As deep learning is still an evolving field, new techniques are being discovered and implemented to increase performance. One problem with deep learning is that it requires an incredibly large amount of data to train, however once the model is trained it can be used relatively efficiently.
+
+	\end{itemize}
+
+	\item I've been interested in NLP since Apple came out with Siri. I was incredibly intrigued and started playing around with it, but after a couple of minutes I found that the system is incredibly limited. I tried to create my own voice assistant and quickly realized it wasn't as easy as it looked. After this class, I would love to create my own version of an Alexa so I can customize its behavior.
+\end{enumerate}
+\end{document}	
