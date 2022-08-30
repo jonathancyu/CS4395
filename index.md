@@ -6,3 +6,4 @@ This portfolio highlights work done for the [Introduction to Natural Language Pr
 
 ## Portfolio Contents
 1. [Overview of NLP](https://jonathancyu.github.io/Component0/Overview%20of%20NLP.pdf)
+2. [Python Warmup]
