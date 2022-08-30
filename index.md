@@ -6,4 +6,10 @@ This portfolio highlights work done for the [Introduction to Natural Language Pr
 
 ## Portfolio Contents
 1. [Overview of NLP](https://jonathancyu.github.io/Component0/Overview%20of%20NLP.pdf)
-2. [Python Warmup]
+2. [Python Warmup](https://jonathancyu.github.io/NLP-Portfolio/homework1/homework1_jcy180000.py)
+	This program imports data from a .csv file, and then validates the given info. If any values are not formatted correctly, the program prompts for a correct entry. The program then saves the data as a pickle file, then loads the same pickle file and prints the data.
+	In order to run the program, enter ``python homework1_jcy180000.py <path-to-data>``
+
+	In my opinion, Python is incredibly powerful for text processing. However, Python is not built for optimized runtime thus text processing could be faster in some other languages. This can be said for any function or library of Python.
+
+	This assignment was almost entirely review for me. One thing I learned is how useful pickle files are, as I've never used them before.
