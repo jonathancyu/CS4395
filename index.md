@@ -14,4 +14,4 @@ This portfolio highlights work done for the [Introduction to Natural Language Pr
 	This assignment was mostly review for me. One thing I learned is how powerful pickle files are. Initially, I thought they were simply json files under a different name, however I soon realized it's a way to save an object with all of its components, which is incredibly useful.
 
 3. [NLTK Intro](https://jonathancyu.github.io/NLP-Portfolio/homework2/homework2.pdf)
-	* This is a PDF of a Jupyter notebook containing the exercised from the homework 2 NLTK intro. 
+	* This is a PDF of a Jupyter notebook containing the exercises from the homework 2 NLTK intro. 
