@@ -6,6 +6,7 @@ This portfolio highlights work done for the [Introduction to Natural Language Pr
 
 ## Portfolio Contents
 1. [Overview of NLP](https://jonathancyu.github.io/Component0/Overview%20of%20NLP.pdf)
+
 2. [Python Warmup](https://jonathancyu.github.io/NLP-Portfolio/homework1/homework1_jcy180000.py)
 	* This program imports data from a .csv file, and then validates the given info. If any values are not formatted correctly, the program prompts for a correct entry. The program then saves the data as a pickle file, then loads the same pickle file and prints the data.
 	In order to run the program, enter 
@@ -15,9 +16,11 @@ This portfolio highlights work done for the [Introduction to Natural Language Pr
 
 3. [NLTK Intro](https://jonathancyu.github.io/NLP-Portfolio/homework2/homework2.pdf)
 	* This is a PDF of a Jupyter notebook containing the exercises from the homework 2 NLTK intro. 
+
 4. [Guessing Game](https://jonathancyu.github.io/NLP-Portfolio/guessinggame)
 	* This program parses the first chapter of an anatomy textbook. It computes the lexical diversity and top 50 nouns, then creates a hangman-esque guessing game with them. Execute this with
 	```python main.py anat19.txt```
 	To exit the game, enter !.
+
 5. [WordNet Intro](https://jonathancyu.github.io/NLP-Portfolio/wordnet/WordNet.pdf)
 	* This is a PDF of a Jupyter notebook containing the exercised from the WordNet introductory assignment.
