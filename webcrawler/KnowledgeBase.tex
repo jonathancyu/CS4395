@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage[shortlabels]{enumitem}
+\usepackage[export]{adjustbox}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{etoolbox}
+\usepackage{mathrsfs}
+\usepackage{listings}
+\usepackage{graphicx}
+\let\n\newline
+\let\t\text
+
+
+\newcommand\ol[1]{\ensuremath{\overline{#1}}} % doesnt show up in preview :(
+\newcolumntype{L}{>$l<$}
+
+\title{Knowledge Base}
+\author{Jonathan Yu}	
+
+\preto\array{\setcounter{magicrownumbers}{0}}
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+
+\begin{document}
+\renewcommand{\arraystretch}{1.5}
+\maketitle
+In order to make my knowledge base, I began my web crawl on a ESPN article on a hard hit that occurred in the NFL. I then crawled through all the links and recorded the text on each page. From there, I then tokenized the text. I noticed that the top 50 terms was mostly composed of legal words, so I realized that my web crawler was picking up the EULA at the bottom of the page. Because of this, I just added the entire sentence to a filter, along with stop words and punctuation.
+
+Once I found the top 10 most important words I built the knowledge base. I first find all occurrences of the given word. Then, I find the last period in the substring before the occurrence, along with the first period after the occurrence. I then take a substring between the two, giving me a sentence describing the word.
+My top ten words are game, required, digital, dispute, york, south, tagovailoa, concussion, united, and subject. For each word, I simply append these sentences to my knowledge base. To look up an item in the knowledge base, we index the word we want and select a sentence. \n
+\includegraphics[width=14cm]{firefox_MtCSn75IKg.png}\n
+Example:\n
+Me: "Hi, I just got a concussion!"\n
+Chat bot: "Bridgewater was put into the protocol after the booth atc spotter ruled him a "no-go" after he took a hit on the dolphins' opening offensive drive, in compliance with the NFL's amended concussion protocol"
+
+
+\end{document}	

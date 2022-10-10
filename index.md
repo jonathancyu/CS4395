@@ -24,3 +24,9 @@ This portfolio highlights work done for the [Introduction to Natural Language Pr
 
 5. [WordNet Intro](https://jonathancyu.github.io/NLP-Portfolio/wordnet/WordNet.pdf)
 	* This is a PDF of a Jupyter notebook containing the exercised from the WordNet introductory assignment.
+
+6. NGrams [Problem 1](https://jonathancyu.github.io/NLP-Portfolio/ngrams/Problem1.py) [Problem 2](https://jonathancyu.github.io/NLP-Portfolio/ngrams/Problem2.py)
+	* In this assignment I worked with a partner to create a Naive Bayes' classifier to determine the most likely language of a given sentence.
+
+7. [Web Crawler](https://jonathancyu.github.io/NLP-Portfolio/webcrawler/KnowledgeBase.pdf)
+	* In this assignment I use a web crawler to scrape data off ESPN articles in order to create a knowledge base containing sports terms.
