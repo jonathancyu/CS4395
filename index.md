@@ -30,3 +30,6 @@ This portfolio highlights work done for the [Introduction to Natural Language Pr
 
 7. [Web Crawler](https://jonathancyu.github.io/NLP-Portfolio/webcrawler/KnowledgeBase.pdf)
 	* In this assignment I use a web crawler to scrape data off ESPN articles in order to create a knowledge base containing sports terms.
+
+8. [Sentence Parsing](https://jonathancyu.github.io/NLP-Portfolio/sentenceparsing/sentenceparsing.pdf)
+	* In this assignment, I explore the pros and cons of PSG trees, dependency parsing, and SRL parsing. From my experience, I've found that dependency parsing extracts the most value from the sentence.
