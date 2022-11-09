@@ -33,3 +33,5 @@ This portfolio highlights work done for the [Introduction to Natural Language Pr
 
 8. [Sentence Parsing](https://jonathancyu.github.io/NLP-Portfolio/sentenceparsing/sentenceparsing.pdf)
 	* In this assignment, I explore the pros and cons of PSG trees, dependency parsing, and SRL parsing. From my experience, I've found that dependency parsing extracts the most value from the sentence.
+9. [Author Attribution](https://jonathancyu.github.io/NLP-Portfolio/authorattribution/authorattribution.pdf)
+	* In this assignment, I use Naive-Bayes, Logistic Regression, as well as Neural Networks to predict the authors of the Federalist papers. I found that the highest accuracy was about 94%, which was achieved by both the Naive-Bayes classifier as well as the Neural Network.
