@@ -17,9 +17,10 @@ This portfolio highlights work done for the [Introduction to Natural Language Pr
 3. [NLTK Intro](https://jonathancyu.github.io/NLP-Portfolio/homework2/homework2.pdf)
 	* This is a PDF of a Jupyter notebook containing the exercises from the homework 2 NLTK intro. 
 
-4. [Guessing Game](https://jonathancyu.github.io/NLP-Portfolio/guessinggame)
+4. [Guessing Game](https://github.com/jonathancyu/NLP-Portfolio/tree/main/guessinggame)
 	* This program parses the first chapter of an anatomy textbook. It computes the lexical diversity and top 50 nouns, then creates a hangman-esque guessing game with them. Execute this with
 	```python main.py anat19.txt```
+	
 	To exit the game, enter !.
 
 5. [WordNet Intro](https://jonathancyu.github.io/NLP-Portfolio/wordnet/WordNet.pdf)
