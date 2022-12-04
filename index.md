@@ -36,3 +36,5 @@ This portfolio highlights work done for the [Introduction to Natural Language Pr
 	* In this assignment, I explore the pros and cons of PSG trees, dependency parsing, and SRL parsing. From my experience, I've found that dependency parsing extracts the most value from the sentence.
 9. [Author Attribution](https://jonathancyu.github.io/NLP-Portfolio/authorattribution/authorattribution.pdf)
 	* In this assignment, I use Naive-Bayes, Logistic Regression, as well as Neural Networks to predict the authors of the Federalist papers. I found that the highest accuracy was about 94%, which was achieved by both the Naive-Bayes classifier as well as the Neural Network.
+10. [Keras Text Classification](https://jonathancyu.github.io/NLP-Portfolio/textclassification/textclassification.pdf)
+	* This has been my favorite assignment of the semester. In this assignment, I used varying Neural Network architectures to classify the fake news dataset from kaggle.com. I found that a simple sequential neural network model fit this task the best given the limited compute on my local machine.
